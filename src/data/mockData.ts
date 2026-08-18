@@ -1,14 +1,12 @@
 import { Course, Faculty, TopperResult, CampusLocation } from '../types';
 
 export const INSTITUTE_INFO = {
-  name: 'Apex Academy of Science & Excellence',
+  name: 'Biley Academy of Science & Excellence',
   tagline: 'Sculpting Tomorrow\'s Engineers, Doctors & Visionary Leaders',
-  estYear: '2008',
-  phone: '+91 (11) 4980-2200',
-  tollFree: '1800-209-APEX (2739)',
-  email: 'admissions@apexacademy.edu',
-  counsellingEmail: 'counsellor@apexacademy.edu',
-  headOffice: 'Apex Tower, Plot 14, Institutional Area, South Extension Part-II, New Delhi - 110049',
+  estYear: '2026',
+  phone: '+91 (9732531730)',
+  email: 'bileyacademy@gmail.com',
+  headOffice: 'Jamna, Pingla, Paschim Medinipur, Pin-721140, West Bengal, India',
   stats: {
     selectionsCount: '18,500+',
     iitAiimsSelections: '4,200+',
