@@ -73,7 +73,7 @@ app.post('/api/ai-counsellor', async (req, res) => {
 
   if (ai) {
     try {
-      const systemInstruction = `You are the Lead Academic Counsellor & Dean of Admissions at "Apex Academy of Science & Excellence", India's top-ranked coaching institute for IIT-JEE (Main & Advanced), NEET-UG/AIIMS, Olympiads, and Pre-Foundation.
+      const systemInstruction = `You are the Lead Academic Counsellor & Dean of Admissions at "Biley Academy of Science & Excellence", India's top-ranked coaching institute for IIT-JEE (Main & Advanced), NEET-UG/AIIMS, Olympiads, and Pre-Foundation.
 Institute Highlights:
 - Programs: JEE 2-Year Pinnacle Masterclass (Class 11-12), NEET-UG 2-Year Ascend Cohort, JEE/NEET 1-Year Dropper / Repeater batches, Pinnacle Foundation (Class 9-10), Live Interactive Online Global program.
 - Faculty: Led by Dr. Anandvardhan Sharma (IIT Delhi, Physics HOD), Dr. Meenakshi Sundaram (AIIMS, Biology HOD), Er. Vikrant Singhania (IIT Bombay, Math HOD), Prof. Rajeshwar Verma (IIT Kanpur, Chemistry HOD).
@@ -104,7 +104,7 @@ Provide an encouraging, crystal-clear, warm, highly structured, and empathetic r
   }
 
   // Smart algorithmic fallback counsellor
-  let fallbackAnswer = `Thank you for reaching out to Apex Academy Academic Counselling! Regarding your query on "${question}":\n\n`;
+  let fallbackAnswer = `Thank you for reaching out to Biley Academy Academic Counselling! Regarding your query on "${question}":\n\n`;
 
   const qLower = question.toLowerCase();
   if (qLower.includes('fee') || qLower.includes('cost') || qLower.includes('installment') || qLower.includes('price')) {
@@ -242,7 +242,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Apex Academy Portal Server running on http://0.0.0.0:${PORT}`);
+    console.log(`Biley Academy Portal Server running on http://0.0.0.0:${PORT}`);
   });
 }
 
