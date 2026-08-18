@@ -467,16 +467,20 @@ export const CAMPUS_LOCATIONS: CampusLocation[] = [
 
 export const FAQS_DATA = [
   {
-    question: 'How do I register for the Apex National Talent Scholarship Test (ANTS)?',
-    answer: 'You can register for ANTS online for free through our website or visit any Apex center. The scholarship test is conducted every Sunday both online and at our offline centers. Based on your performance, you can earn up to a 100% tuition fee waiver.',
+    question: 'What classes and subjects do you offer coaching for?',
+    answer: 'We offer coaching for students in Class 5 through Class 12 across three core subjects: Mathematics, Science (Physics, Chemistry, and Biology) with Computer Science/Application and English. Each subject is taught by a dedicated specialist teacher.',
   },
   {
-    question: 'What is the teacher-to-student ratio in classroom batches?',
-    answer: 'We maintain a strict maximum batch size of 40-45 students with a faculty-to-student ratio of 1:15 to ensure personalized attention, individual doubt solving, and continuous performance tracking.',
+    question: 'How do I enroll my child??',
+    answer: 'Simply fill in the enquiry form on this page or call us directly. We will schedule a free 30-minute counselling session to understand your childs current level, goals, and the right batch for them. Enrollment is confirmed after the counselling session.',
   },
   {
-    question: 'How does Apex handle student doubts outside of lecture hours?',
-    answer: 'We have dedicated Doubt Solving Desks operating from 8:00 AM to 8:00 PM staffed by experienced faculty. Additionally, students can use our Apex Mobile App to submit photo doubts and receive verified step-by-step video solutions within minutes.',
+    question: 'What is the batch size? Will my child get individual attention?',
+    answer: 'We keep our batches small — a maximum of 10–12 students per batch. This ensures every student can ask questions freely, and our teachers can track each student's',' progress closely. No child gets left behind.',
+  },
+  {
+    question: 'How does Biley Academy handle student doubts outside of lecture hours?',
+    answer: 'We have dedicated Doubt Solving Desks operating from 8:00 AM to 8:00 PM staffed by experienced faculty. Additionally, students can use Register Whatsapp Mobile number to submit doubts and receive verified step-by-step video solutions within minutes.',
   },
   {
     question: 'Are installment options available for course fee payment?',
@@ -488,7 +492,7 @@ export const FAQS_DATA = [
   },
   {
     question: 'Do you provide hostel and accommodation facilities for outstation students?',
-    answer: 'Yes, our Kota, Delhi South Ext, and Bangalore centers provide verified, secure AC hostels with nutritious hygienic meals, CCTV surveillance, 24/7 warden support, and quiet study zones.',
+    answer: 'NO',
   },
 ];
 
