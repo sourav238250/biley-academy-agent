@@ -77,7 +77,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({
     } catch (err) {
       console.error('Enrollment error:', err);
       // Client-side fallback receipt
-      const fallbackRoll = `APEX-2025-${Math.floor(1000 + Math.random() * 9000)}`;
+      const fallbackRoll = `BILEY-2026-${Math.floor(1000 + Math.random() * 9000)}`;
       setConfirmedReceipt({
         enrollmentId: `ENR-${Date.now().toString().slice(-6)}`,
         rollNumber: fallbackRoll,
@@ -368,7 +368,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({
                 {/* Slip Header */}
                 <div className="flex items-center justify-between border-b-2 border-slate-900 pb-4">
                   <div>
-                    <div className="text-xl font-black tracking-tight text-blue-900">APEX ACADEMY</div>
+                    <div className="text-xl font-black tracking-tight text-blue-900">BILEY ACADEMY</div>
                     <div className="text-[11px] text-slate-500 font-medium">Center for Excellence in JEE, NEET & Foundation</div>
                   </div>
                   <div className="text-right">
@@ -427,7 +427,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({
                   </div>
                   <div className="text-right">
                     <span>Authorized Registrar Stamp</span>
-                    <div className="font-bold text-blue-900">Apex Academy Central Admissions</div>
+                    <div className="font-bold text-blue-900">Biley Academy Central Admissions</div>
                   </div>
                 </div>
 

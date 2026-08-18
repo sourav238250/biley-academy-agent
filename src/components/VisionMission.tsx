@@ -17,7 +17,7 @@ export const VisionMission: React.FC = () => {
             Our Vision, Mission & Core Pedagogy
           </h2>
           <p className="text-base text-slate-600 leading-relaxed">
-            Founded with a solemn commitment to academic integrity and intellectual excellence, Apex Academy bridges the gap between potential and peak competitive achievement.
+            Founded with a solemn commitment to academic integrity and intellectual excellence, Biley Academy bridges the gap between potential and peak competitive achievement.
           </p>
         </div>
 
@@ -62,10 +62,10 @@ export const VisionMission: React.FC = () => {
 
         </div>
 
-        {/* 4 Pillars of Apex Pedagogy */}
+        {/* 4 Pillars of Biley Pedagogy */}
         <div className="mb-16">
           <div className="text-center mb-10">
-            <h3 className="text-2xl font-bold text-slate-900">The Four Pillars of Apex Academic Ecosystem</h3>
+            <h3 className="text-2xl font-bold text-slate-900">The Four Pillars of Biley Academic Ecosystem</h3>
             <p className="text-sm text-slate-500 mt-1">Every element of our curriculum is engineered for conceptual clarity and high examination performance.</p>
           </div>
 
@@ -131,7 +131,7 @@ export const VisionMission: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-lg font-bold text-white">Dr. Anandvardhan Sharma</h4>
-                <p className="text-xs text-amber-300 font-medium">Founder & Managing Director, Apex Academy</p>
+                <p className="text-xs text-amber-300 font-medium">Founder & Managing Director, Biley Academy</p>
                 <p className="text-[11px] text-slate-400">19+ Years Mentoring JEE/NEET Rankers</p>
               </div>
             </div>
@@ -143,7 +143,7 @@ export const VisionMission: React.FC = () => {
                   "Competitive examinations like JEE Advanced and NEET-UG do not merely test a student's memory; they test <span className="text-amber-300 font-semibold">intellectual honesty, psychological resilience, and clarity of thought under intense pressure</span>."
                 </p>
                 <p>
-                  "At Apex Academy, we refuse to treat students like roll numbers in mass factories. We teach with passion, address every doubt with patience, and nurture future doctors and engineers who will build a better world."
+                  "At Biley Academy, we refuse to treat students like roll numbers in mass factories. We teach with passion, address every doubt with patience, and nurture future doctors and engineers who will build a better world."
                 </p>
               </div>
 

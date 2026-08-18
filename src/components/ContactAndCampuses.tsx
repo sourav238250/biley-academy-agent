@@ -130,7 +130,7 @@ export const ContactAndCampuses: React.FC<ContactAndCampusesProps> = ({
 
                 <div className="p-4 pt-0">
                   <a
-                    href={`tel:${campus.phone.replace(/[^0-9+]/g, '')}`}
+                    href={`tel:${(campus.phone || '').replace(/[^0-9+]/g, '')}`}
                     className="w-full py-2 rounded-xl text-xs font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 border border-blue-200 transition-colors flex items-center justify-center gap-1.5"
                   >
                     <Phone className="w-3 h-3" />
@@ -148,7 +148,7 @@ export const ContactAndCampuses: React.FC<ContactAndCampusesProps> = ({
             <div className="space-y-2">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 border border-emerald-200">
                 <ImageIcon className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Life at Apex</span>
+                <span>Life at Biley Academy</span>
               </span>
               <h3 className="text-2xl font-bold text-slate-900">Campus Environment & Learning Facilities</h3>
             </div>
@@ -202,8 +202,8 @@ export const ContactAndCampuses: React.FC<ContactAndCampusesProps> = ({
                   <Phone className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
-                  <div className="text-xs text-slate-400 font-medium">Admissions & Toll-Free Helpline:</div>
-                  <div className="text-base font-bold text-slate-900">{INSTITUTE_INFO.tollFree}</div>
+                  <div className="text-xs text-slate-400 font-medium">Admissions Helpline:</div>
+                  <div className="text-base font-bold text-slate-900">{INSTITUTE_INFO.phone}</div>
                   <div className="text-xs text-slate-500">Mon - Sun: 8:00 AM - 8:00 PM</div>
                 </div>
               </div>

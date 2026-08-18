@@ -61,7 +61,7 @@ export const Footer: React.FC<FooterProps> = ({
                 <GraduationCap className="w-5 h-5 text-amber-300" />
               </div>
               <div>
-                <div className="text-base font-black tracking-tight text-white">APEX ACADEMY</div>
+                <div className="text-base font-black tracking-tight text-white">BILEY ACADEMY</div>
                 <div className="text-[10px] text-slate-400 font-medium">SCIENCE & EXCELLENCE INSTITUTE</div>
               </div>
             </div>
@@ -71,7 +71,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="flex items-center gap-4 text-slate-300 pt-2">
               <span className="flex items-center gap-1.5 text-xs text-amber-300">
                 <Award className="w-4 h-4" />
-                <span>Est. 2008</span>
+                <span>Est. {INSTITUTE_INFO.estYear}</span>
               </span>
               <span>•</span>
               <span className="flex items-center gap-1.5 text-xs text-blue-300">
@@ -151,7 +151,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="space-y-2 text-xs">
               <div className="flex items-start gap-2">
                 <Phone className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
-                <span>{INSTITUTE_INFO.tollFree}</span>
+                <span>{INSTITUTE_INFO.phone}</span>
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="w-3.5 h-3.5 text-blue-400 shrink-0 mt-0.5" />
@@ -159,7 +159,7 @@ export const Footer: React.FC<FooterProps> = ({
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-purple-400 shrink-0 mt-0.5" />
-                <span className="line-clamp-2">South Ext Part-II, New Delhi</span>
+                <span className="line-clamp-2">{INSTITUTE_INFO.headOffice}</span>
               </div>
             </div>
             <div className="pt-2">
@@ -179,7 +179,7 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Bottom Disclaimer & Copyright */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
           <div>
-            © {new Date().getFullYear()} Apex Academy of Science & Excellence Pvt. Ltd. All rights reserved.
+            © {new Date().getFullYear()} {INSTITUTE_INFO.name}. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
             <span className="hover:underline cursor-pointer">Privacy Policy</span>

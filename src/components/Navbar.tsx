@@ -56,9 +56,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             </span>
           </div>
           <div className="flex items-center space-x-4 text-slate-300">
-            <a href={`tel:${INSTUTE_INFO_CLEAN(INSTITUTE_INFO.tollFree)}`} className="flex items-center gap-1.5 hover:text-amber-300 transition-colors font-medium">
+            <a href={`tel:${INSTUTE_INFO_CLEAN(INSTITUTE_INFO.phone)}`} className="flex items-center gap-1.5 hover:text-amber-300 transition-colors font-medium">
               <Phone className="w-3.5 h-3.5 text-amber-400" />
-              <span>Toll Free: {INSTITUTE_INFO.tollFree}</span>
+              <span>Helpline: {INSTITUTE_INFO.phone}</span>
             </a>
             <span className="hidden md:inline text-slate-600">|</span>
             <button
@@ -92,10 +92,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xl font-black tracking-tight text-slate-900">APEX</span>
+                <span className="text-xl font-black tracking-tight text-slate-900">BILEY</span>
                 <span className="text-xl font-bold tracking-tight text-blue-700">ACADEMY</span>
                 <span className="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-blue-50 text-blue-800 border border-blue-200">
-                  Est. 2008
+                  Est. {INSTITUTE_INFO.estYear}
                 </span>
               </div>
               <p className="text-[11px] text-slate-500 font-medium tracking-normal hidden md:block">
@@ -220,6 +220,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   );
 };
 
-function INSTUTE_INFO_CLEAN(str: string) {
-  return str.replace(/[^0-9+]/g, '');
+function INSTUTE_INFO_CLEAN(str?: string) {
+  return (str || '').replace(/[^0-9+]/g, '');
 }

@@ -24,7 +24,7 @@ export const AICounsellorModal: React.FC<AICounsellorModalProps> = ({
     {
       id: '1',
       sender: 'ai',
-      text: "Hello! I am your Apex Academy AI Academic & Career Counsellor. Whether you are aiming for IIT-JEE, NEET-UG, or Pre-Foundation Olympiads, I'm here to help you choose the right course, understand our batch schedules, syllabus, or calculate your ANTS scholarship discount. How can I guide you today?",
+      text: "Hello! I am your Biley Academy AI Academic & Career Counsellor. Whether you are aiming for IIT-JEE, NEET-UG, or Pre-Foundation Olympiads, I'm here to help you choose the right course, understand our batch schedules, syllabus, or calculate your ANTS scholarship discount. How can I guide you today?",
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
   ]);
@@ -36,8 +36,8 @@ export const AICounsellorModal: React.FC<AICounsellorModalProps> = ({
     'Which course is best after 10th for IIT-JEE?',
     'How do you prepare students for NEET 700+ marks?',
     'What is the ANTS scholarship test syllabus & fee discount?',
-    'How does 1-on-1 doubt clearing work at Apex?',
-    'Are hostel and mess facilities provided in Kota and Delhi?',
+    'How does 1-on-1 doubt clearing work at Biley Academy?',
+    'Are hostel and batch demo facilities provided?',
   ];
 
   useEffect(() => {
@@ -77,7 +77,7 @@ export const AICounsellorModal: React.FC<AICounsellorModalProps> = ({
       const aiMsg: Message = {
         id: (Date.now() + 1).toString(),
         sender: 'ai',
-        text: data.answer || "I'm sorry, I couldn't process that query right now. Please call our central admissions desk at 1800-209-2739.",
+        text: data.answer || "I'm sorry, I couldn't process that query right now. Please call our central admissions desk at +91 9732531730.",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prev) => [...prev, aiMsg]);
@@ -86,7 +86,7 @@ export const AICounsellorModal: React.FC<AICounsellorModalProps> = ({
       const fallbackMsg: Message = {
         id: (Date.now() + 1).toString(),
         sender: 'ai',
-        text: 'Apex Academy offers premier coaching for JEE (Main & Advanced), NEET-UG, and Pre-Foundation with top faculties from IIT Delhi and AIIMS. You can register for our ANTS Scholarship test every Sunday to get up to a 100% fee waiver. Would you like to proceed to online enrollment or visit our South Delhi / Kota center?',
+        text: 'Biley Academy offers premier coaching for JEE (Main & Advanced), NEET-UG, and Pre-Foundation with top faculties from IIT Delhi and AIIMS. You can register for our ANTS Scholarship test to get up to a 100% fee waiver. Would you like to proceed to online enrollment or visit our campus?',
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prev) => [...prev, fallbackMsg]);
@@ -107,7 +107,7 @@ export const AICounsellorModal: React.FC<AICounsellorModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="text-base font-bold text-white">Apex Academic AI Advisor</h3>
+                <h3 className="text-base font-bold text-white">Biley Academic AI Advisor</h3>
                 <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               </div>
               <p className="text-[11px] text-blue-200">Instant Course, Syllabus & Scholarship Guidance</p>
